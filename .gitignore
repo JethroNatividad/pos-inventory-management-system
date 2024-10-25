@@ -1,0 +1,60 @@
+# API
+/api/.phpunit.cache
+/api/node_modules
+/api/public/build
+/api/public/hot
+/api/public/storage
+/api/storage/*.key
+/api/storage/pail
+/api/vendor
+/api/.env
+/api/.env.backup
+/api/.env.production
+/api/.phpactor.json
+/api/.phpunit.result.cache
+/api/Homestead.json
+/api/Homestead.yaml
+/api/auth.json
+/api/npm-debug.log
+/api/yarn-error.log
+/api/.fleet
+/api/.idea
+/api/.vscode
+/api/.zed
+
+
+# Client
+
+# dependencies
+/client/node_modules
+/client/.pnp
+/client/.pnp.js
+
+# testing
+/client/coverage
+
+# next.js
+/client/.next/
+/client/out/
+
+# production
+/client/build
+
+# misc
+/client/.DS_Store
+/client/*.pem
+
+# debug
+/client/npm-debug.log*
+/client/yarn-debug.log*
+/client/yarn-error.log*
+
+# env files
+/client/.env
+/client/.env.local
+/client/.env.development.local
+/client/.env.test.local
+/client/.env.production.local
+
+# vercel
+/client/.vercel
