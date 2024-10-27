@@ -29,6 +29,10 @@ class StoreUserRequest extends FormRequest
             'last_name' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'lowercase', 'email', 'max:255', 'unique:' . User::class],
             'password' => ['required', 'confirmed', Rules\Password::defaults()],
+            'is_business_owner' => ['nullable', 'boolean'],
+            'is_administrator' => ['nullable', 'boolean'],
+            'is_inventory_manager' => ['nullable', 'boolean'],
+            'is_cashier' => ['nullable', 'boolean'],
         ];
     }
 }

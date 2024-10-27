@@ -23,6 +23,10 @@ class User extends Authenticatable
         'last_name',
         'email',
         'password',
+        'is_business_owner',
+        'is_administrator',
+        'is_inventory_manager',
+        'is_cashier'
     ];
 
     /**
